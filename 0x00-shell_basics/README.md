@@ -1,1 +1,1 @@
-script to print absolute path
+shell basics for files and directories
