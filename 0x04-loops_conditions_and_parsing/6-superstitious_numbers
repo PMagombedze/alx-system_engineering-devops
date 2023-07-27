@@ -10,5 +10,5 @@ while [ $i -lt 20 ]
       "17") echo "bad luck from Italy";;
       "9") echo "bad luck from Japan";;
     esac
-  ((i++))
+    ((i++))
 done
