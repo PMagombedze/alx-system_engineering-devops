@@ -1,16 +1,14 @@
 #!/usr/bin/env bash
-
 # bad luck from country
 
 i=0
-
 while [ $i -lt 20 ]
-do
-echo "$i"
-case $i in
-"4") echo "bad luck from China";;
-"17") echo "bad luck from Italy";;
-"9") echo "bad luck from Japan";;
-esac
-((i++))
+  do
+    echo "$i"
+    case $i in
+      "4") echo "bad luck from China";;
+      "17") echo "bad luck from Italy";;
+      "9") echo "bad luck from Japan";;
+    esac
+  ((i++))
 done
