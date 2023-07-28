@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# prints contents of current directory
+
+arr=$(ls)
+for arr in $arr; do
+  echo "$n" | cut -d '-' -f2
+done
