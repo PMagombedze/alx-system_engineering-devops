@@ -1,0 +1,12 @@
+# NETWORK BASICS - 2
+
+## LOCALHOST
+
+## TELNET
+
+## IFCONFIG
+
+## NC
+
+## CUT
+
