@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#  return a page containing Hello Holberton when querying the root of it.
+
+echo "ServerName localhost" >> /etc/apache2.conf
+service apache2 start
