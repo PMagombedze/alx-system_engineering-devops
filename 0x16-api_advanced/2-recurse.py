@@ -20,7 +20,7 @@ v1.0.0 (by /u/firdaus_cartoon_jr)"
         "limit": 100
     }
     resp = requests.get(url, headers=headers, params=params,
-                            allow_redirects=False)
+                        allow_redirects=False)
     if resp.status_code == 404:
         return None
 

@@ -28,7 +28,7 @@ def count_words(subreddit, word_list, after='', word_dict={}):
     header = {'user-agent': 'redquery'}
     parameters = {'limit': 100, 'after': after}
     resp = requests.get(url, headers=header, params=parameters,
-                            allow_redirects=False)
+                        allow_redirects=False)
 
     if resp.status_code != 200:
         return None
